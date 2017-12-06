@@ -9,7 +9,7 @@ find_library(rest restclient-cpp "/usr/local/lib/")
 link_directories(${Boost_LIBRARY_DIRS} ${rest} )
 FIND_PACKAGE( Boost 1.55.0 COMPONENTS log program_options system filesystem thread REQUIRED )
 
-set(SOURCE_FILES main.cpp settings.cpp settings.h)
+set(SOURCE_FILES main.cpp settings.cpp settings.hpp)
 add_executable(http_requests ${SOURCE_FILES} jsoncpp-0.10.5/dist/jsoncpp.cpp)
 
 TARGET_LINK_LIBRARIES( http_requests ${Boost_LIBRARIES} ${rest} curl pthread rt )
