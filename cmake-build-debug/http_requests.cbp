@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="http_requests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/administrator/Http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/administrator/Http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/administrator/Http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http_requests">
+				<Option output="/home/administrator/Http/cmake-build-debug/http_requests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/administrator/Http/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/restclient-cpp"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/administrator/Http/../restclient-cpp/include"/>
+					<Add directory="/home/administrator/Http/../restclient-cpp/source"/>
+					<Add directory="/home/administrator/Http/../restclient-cpp"/>
+					<Add directory="/home/administrator/Http/jsoncpp-0.10.5/dist"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include"/>
+					<Add directory="/opt/5.2/include"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../include/c++/5.2.0"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../include/c++/5.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../include/c++/5.2.0/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 http_requests"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http_requests/fast">
+				<Option output="/home/administrator/Http/cmake-build-debug/http_requests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/administrator/Http/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/restclient-cpp"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/administrator/Http/../restclient-cpp/include"/>
+					<Add directory="/home/administrator/Http/../restclient-cpp/source"/>
+					<Add directory="/home/administrator/Http/../restclient-cpp"/>
+					<Add directory="/home/administrator/Http/jsoncpp-0.10.5/dist"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include"/>
+					<Add directory="/opt/5.2/include"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../include/c++/5.2.0"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../include/c++/5.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/opt/5.2/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../include/c++/5.2.0/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 http_requests/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/administrator/Http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/administrator/Http/jsoncpp-0.10.5/dist/jsoncpp.cpp">
+			<Option target="http_requests"/>
+		</Unit>
+		<Unit filename="/home/administrator/Http/main.cpp">
+			<Option target="http_requests"/>
+		</Unit>
+		<Unit filename="/home/administrator/Http/settings.cpp">
+			<Option target="http_requests"/>
+		</Unit>
+		<Unit filename="/home/administrator/Http/settings.h">
+			<Option target="http_requests"/>
+		</Unit>
+		<Unit filename="/home/administrator/Http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
