@@ -11,18 +11,13 @@ using namespace std;
 class settings {
 
 public:
+
     settings();
     void init();
+    void set_url(string url);
+    string get_url();
 
-    void set_url(string url){
 
-        Hit_Url = url;
-    }
-
-    string get_url(){
-
-        return Hit_Url;
-    }
     string m_file = "";
 private:
 

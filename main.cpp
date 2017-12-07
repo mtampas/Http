@@ -20,7 +20,6 @@ int count_word(string body, string word){
 
     return count;
 
-
 }
 
 int main() {

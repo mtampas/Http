@@ -45,4 +45,14 @@ void settings::init() {
 
 }
 
+void settings::set_url(string url){
+
+    Hit_Url = url;
+}
+
+string settings::get_url(){
+
+    return Hit_Url;
+}
+
 
